@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musicplayer/home.dart';
 import 'package:musicplayer/login.dart';
 
 void main()=> runApp(MyApp());
@@ -14,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
-      home: Login(),
+      home: Home(),
     ); 
 }
 }
